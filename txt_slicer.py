@@ -40,7 +40,6 @@ with open(source_file, 'r') as f:
     source_text = f.read()
 
 normalized_text = normalize_str(source_text)
-print normalized_text
 
 with open(output_file, 'w') as f:
     f.write(normalized_text)

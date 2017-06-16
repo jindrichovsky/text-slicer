@@ -26,7 +26,7 @@ source_file = argv[1]
 output_file = source_file.replace('.txt', '_normalized.txt')
 
 if exists(output_file):
-    overwrite = raw_input('File already exist. Overwrite? (Y/N) >')
+    overwrite = raw_input('File already exists. Overwrite? (Y/N) >')
 
     if overwrite.lower() == 'n':
         exit(0)
